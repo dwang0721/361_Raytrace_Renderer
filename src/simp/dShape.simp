@@ -1,0 +1,86 @@
+
+# bottom curve
+{	
+	translate 14.8 -9.2 0
+	rotate Z 34
+	scale 3.8 5 5	
+	
+	file "cube"
+}
+
+{	
+	translate 10 -10 0
+	scale 5 5 5	
+	rotate Z 10
+	file "cube"
+}
+
+{	
+	translate 5 -10 0
+	scale 5 5 5
+	rotate Z 0
+	
+	file "cube"
+}
+
+# top curve
+{	
+	translate 11.2 10.4 0
+	rotate Z -42.5
+	scale 4.5 5 5	
+	
+	file "cube"
+}
+
+{	
+	translate 9 10 0	
+	scale 5 5 5	
+	rotate Z -10
+	file "cube"
+}
+
+
+{	
+	translate 5 10 0
+	rotate Z 0
+	scale 5 5 5	
+	file "cube"
+}
+
+
+# left column 
+
+
+{
+	translate 0 -10 0
+	scale 5 25 5
+	file "cube"
+}
+
+
+# right column 
+
+
+{
+	translate 13 -7 0
+	scale 5 18 5
+	file "cube"
+}
+
+# i 
+{
+	
+	translate 25 10 1
+	rotate X 90
+	scale 0.4 0.1 0.4
+
+	file "cylinder"
+}
+
+
+{
+	translate 25 -10 2.5
+	scale 0.4 0.4 0.4
+	file "cylinder"
+}
+

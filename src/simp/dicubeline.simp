@@ -1,0 +1,61 @@
+{
+	translate 0 0 0
+	scale 10 10 10
+	file "cube"
+}
+
+{
+	rotate Z 15
+	translate 12 -5 -25
+	scale 4 20 4
+	file "cube"
+}
+
+{
+	rotate Y 45
+	rotate Z 30
+	translate 5 0 -20
+	scale 15 5 5
+	file "cube"
+}
+
+{
+	translate -15 0 -20
+	scale 7 2 25
+	file "cube"
+}
+
+{
+	translate -25 0 -5
+	scale 5 5 5
+	file "cube"
+}
+
+{
+	translate -20 0 3
+	scale 3 3 3
+	file "cube"
+}
+
+{
+	rotate X -60	
+	scale 2 2 28
+	translate 0 2 -0.1
+	file "cube"
+}
+
+{
+
+	rotate Y -26
+	rotate X 14	
+	scale 2 2 55
+	translate -4 2 -0.8
+	file "cube"
+}
+
+{
+	translate 0 0 -50
+	scale 10 10 25
+	file "cube"
+}
+

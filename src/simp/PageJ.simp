@@ -1,0 +1,42 @@
+{
+	ambient 0.75 0.25 0.75
+	{
+		translate 0 30 5
+		camera  -1 -1 1 1 -0.1 -200
+		depth 0 -200 (0 0 0)
+	}
+	
+	filled
+	{
+		translate 0 0 -80
+		rotate Y -45
+		obj "lego"
+	}	
+	
+		filled
+	{
+		translate -50 -25 -80
+		scale 0.5 0.5 0.5
+		rotate Z 45
+		obj "lego"
+	}
+	
+	wire
+	{
+		translate -45 -12 -100
+		rotate Y -10
+		rotate Z 20
+		obj "lego"
+	}
+	
+		wire
+	{
+		translate -80 -100 -150
+		rotate Y 10
+		rotate Z 80
+		scale 0.5 0.5 0.5
+		obj "lego"
+	}
+
+
+}

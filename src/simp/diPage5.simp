@@ -1,0 +1,55 @@
+{
+	scale 5 5 5
+	rotate Y 45
+	rotate X -25
+	translate 3 5 -20
+	file "dShape"
+}
+
+{
+	translate 0 -180 -160
+	rotate Y 45
+	rotate X -60
+	rotate Z 30
+	scale 4 10 4
+	file "cylinder"
+}
+
+
+{
+	translate 0 -180 -160
+	rotate Y 45
+	rotate X -25
+	rotate Z 30
+	scale 4 10 4
+	file "cylinder"
+}
+
+{
+	translate 0 -180 -160
+	rotate Y 45
+	rotate X -20
+	scale 4 10 4
+	file "cylinder"
+}
+
+
+
+{
+	translate 0 -180 -160
+	rotate Y 45
+	rotate X -15
+	rotate Z -30
+	scale 4 10 4
+	file "cylinder"
+}
+
+{
+	translate 0 -180 -160
+	rotate Y 45
+	rotate X -10
+	rotate Z -60
+	scale 4 10 4
+	file "cylinder"
+}
+
