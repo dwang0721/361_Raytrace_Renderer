@@ -38,7 +38,7 @@ The lighting-calculation is using the same color for all pixels in the polygon.
 ### Gouraud shading Calculation
 ![Gouraud](https://github.com/dwang0721/361_Raytrace_Renderer/blob/master/pictures/gouraud_shading.JPG?raw=true)
 >At each vertex of a polygon, find a normal. If the vertex is from an obj file and has a specified normal, use it. 
-Otherwise, the face normal (see previous paragraph) is at every vertex.
+Otherwise, the face normal is at every vertex.
 At each vertex, apply the lighting model to get a lighting value. Then blerp these lighting values across the polygon, 
 using the blerped value as the pixel value at each pixel.
 
