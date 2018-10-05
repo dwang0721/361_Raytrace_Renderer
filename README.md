@@ -44,9 +44,9 @@ using the blerped value as the pixel value at each pixel.
 
 ### Phong shading Calculation
 ![Phong](https://github.com/dwang0721/361_Raytrace_Renderer/blob/master/pictures/phong_shading.JPG?raw=true)
-Find a normal at each vertex as with gouraud shading. 
-Normals are blerped, so as the camera space points, and color (if necessary) across the polygon. 
-At each pixel, used the blerped point, (renormalized) normal, and color in the lighting model to obtain a pixel value for the pixel.
+>Find a normal at each vertex as with gouraud shading. 
+Normals are blerped, so as the camera space points, and color across the polygon. 
+At each pixel, used the blerped point, normal, and color in the lighting model to obtain a pixel value for the pixel.
 
 
 ## Render Obj file
