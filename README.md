@@ -26,7 +26,7 @@ then the renormalized average of these normals is used the normal for the lighti
 
 Otherwise the face normal is used:
 
-    N = normalize((V2 - V1) dot (V3 – V1)).
+    N = normalize((V2 - V1) X (V3 – V1)).
 
 
 ### Flat shading Calculation
