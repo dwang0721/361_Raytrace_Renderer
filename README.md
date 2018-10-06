@@ -1,5 +1,5 @@
 # 361_Raytrace_Renderer
-A ray-tracing renderer implemented in Java:
+A ray-tracing renderer implemented in Java. The renderer supports Obj file reading, polygon drawing, object space transformation/projection, clipping, Z-buffer, ambient lighting, and Phong-model lighting.
 
     1. compile: `javac -cp ./src ./src/client/Main.java`
     2. run:     `java -cp ./src client.Main [filename]`
